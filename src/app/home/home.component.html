@@ -6,5 +6,7 @@
   </form>
 </section>
 <section class="results">
-  <app-housing-location></app-housing-location>
+  <p>{{ housingLocation.name }}</p>
+  <app-housing-location [housingLocation]="housingLocation">
+  </app-housing-location>
 </section>
