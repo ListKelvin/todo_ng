@@ -178,11 +178,21 @@
 </style>
 
 <main class="main">
+  <a [routerLink]="['/']">
+    <header class="brand-name">
+      <img
+        class="brand-logo"
+        src="../assets/Vector.png"
+        alt="logo"
+        aria-hidden="true"
+      />
+    </header>
+  </a>
+  <section class="content">
+    <router-outlet></router-outlet>
+  </section>
   <div class="content">
-    <div class="left-side">
-      <app-home />
-      <app-hello />
-    </div>
+    <div class="left-side"></div>
     <div class="divider" role="separator" aria-label="Divider"></div>
     <div class="right-side">
       <div class="pill-group">

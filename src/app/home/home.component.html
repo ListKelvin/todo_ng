@@ -6,7 +6,9 @@
   </form>
 </section>
 <section class="results">
-  <p>{{ housingLocation.name }}</p>
-  <app-housing-location [housingLocation]="housingLocation">
+  <app-housing-location
+    *ngFor="let housingLocation of housingLocationList"
+    [housingLocation]="housingLocation"
+  >
   </app-housing-location>
 </section>

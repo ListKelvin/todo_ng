@@ -13,5 +13,5 @@ import { Component } from '@angular/core';
   ],
 })
 export class HelloWorldComponent {
-  title = 'hello Minh pham';
+  title = 'Hello Minh Phạm Welcome to Angular';
 }
