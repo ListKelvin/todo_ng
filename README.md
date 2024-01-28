@@ -27,6 +27,13 @@ Learning Stuff:
       - A structural directive that renders a template for each item in a collection. The directive is placed on an element, which becomes the parent of the cloned templates.
       - Syntax: `<li *ngFor="let user of users; index as i; first as isFirst">  {{i}}/{{users.length}}. {{user}} <span *ngIf="isFirst">default</span></li>`
     - The `routerLink` directive enables Angular's router to create dynamic links in the application.
+    - Adding a form to Angular app
+    - HTTP communication to ng app
+
+### Note
+
+- a standalone component refers to a self-contained and reusable unit of code that encapsulates logic, data, and UI elements, without relying on the traditional NgModule system for configuration and dependencies.
+- `FormGroup` and `FormControl` are types that enable you to build forms. The `FormControl` type can provide a default value and shape the form data
 
 ## SERVICES
 
