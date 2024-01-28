@@ -16,17 +16,17 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 Learning Stuff:
 
-- Print component hello world
-- create Home component
-- create housing location component (custom component)
-- Interfaces are custom data types for your app.
-- Input of an housing component
-- validate of an component
-- Add dynamic value to template
-- `ngFor` directive in Angular templates in order to display dynamically repeated data in a template.
-  - A structural directive that renders a template for each item in a collection. The directive is placed on an element, which becomes the parent of the cloned templates.
-  - Syntax: `<li *ngFor="let user of users; index as i; first as isFirst">  {{i}}/{{users.length}}. {{user}} <span *ngIf="isFirst">default</span></li>`
--
+    - Print component hello world
+    - create Home component
+    - create housing location component (custom component)
+    - Interfaces are custom data types for your app.
+    - Input of an housing component
+    - validate of an component
+    - Add dynamic value to template
+    - `ngFor` directive in Angular templates in order to display dynamically repeated data in a template.
+      - A structural directive that renders a template for each item in a collection. The directive is placed on an element, which becomes the parent of the cloned templates.
+      - Syntax: `<li *ngFor="let user of users; index as i; first as isFirst">  {{i}}/{{users.length}}. {{user}} <span *ngIf="isFirst">default</span></li>`
+    - The `routerLink` directive enables Angular's router to create dynamic links in the application.
 
 ## SERVICES
 

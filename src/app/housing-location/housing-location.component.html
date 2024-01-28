@@ -4,4 +4,5 @@
     {{ housingLocation.city }}, {{ housingLocation.state }}
   </p>
   <span class="badge"> {{ templateTest }}</span>
+  <a [routerLink]="['/details', housingLocation.id]">Learn More</a>
 </section>
