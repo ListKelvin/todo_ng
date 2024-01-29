@@ -100,5 +100,6 @@
       "wifi": true,
       "laundry": true
     }
-  ]
+  ],
+  "tasks": [{ "id": 1, "title": "Learn angular" }]
 }
