@@ -1,6 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component, Input, Output } from '@angular/core';
-import { EventEmitter } from 'stream';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-task-list',

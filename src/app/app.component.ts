@@ -6,6 +6,7 @@ import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './components/header/header.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
+import { FooterComponent } from './components/footer/footer.component';
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -14,6 +15,7 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
     RouterOutlet,
     HeaderComponent,
     SidebarComponent,
+    FooterComponent,
     RouterModule,
   ],
   templateUrl: './app.component.html',

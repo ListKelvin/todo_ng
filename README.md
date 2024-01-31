@@ -35,8 +35,9 @@ Learning Stuff:
 - a standalone component refers to a self-contained and reusable unit of code that encapsulates logic, data, and UI elements, without relying on the traditional NgModule system for configuration and dependencies.
 - `FormGroup` and `FormControl` are types that enable you to build forms. The `FormControl` type can provide a default value and shape the form data
 - There is an @ prefix for the if because it is a special type of syntax called Angular template syntax
-- For applications using v16 and older please refer to the Angular documentation for NgIf for more information.
--
+- Angular's HttpClient returns observables from HTTP method calls
+- The `subscribe` method is a key element for working with Observables.
+- `Observables` are a powerful pattern for dealing with `asynchronous` data streams
 
 ## SERVICES
 
