@@ -55,7 +55,7 @@ export class AllTaskComponent {
 
   // method handle update status of task to completed and update the new list of tasks
   onComplete(task: any) {
-    task.complete = true;
+    task.completed = true;
     console.log('line 58: ', task);
     this.httpService.updateTask(task).subscribe(() => {
       this.getAllTasks();
