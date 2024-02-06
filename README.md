@@ -38,8 +38,26 @@ Learning Stuff:
 - Angular's HttpClient returns observables from HTTP method calls
 - The `subscribe` method is a key element for working with Observables.
 - `Observables` are a powerful pattern for dealing with `asynchronous` data streams
+- A component in Angular has a life-cycle, a number of different phases it goes through from birth to death.
 
 ## SERVICES
 
 - Angular services provide a way for you to separate Angular app data and functions that can be used by multiple components in your app.
 - Dependency injection is the mechanism that manages the dependencies of an app's components and the services that other components can use.
+
+## COMPONENTS LIFECYCLE
+
+constructor
+
+- This is invoked when Angular creates a component or directive by calling new on the class.
+  ngOnChanges
+  Invoked every time there is a change in one of th input properties of the component.
+
+ngOnInit
+
+- Invoked when given component has been initialized.
+  This hook is only called once after the first ngOnChanges
+
+ngDoCheck
+
+- Invoked when the change detector of the given component is invoked. It allows us to implement our own change detection algorithm for the given component.

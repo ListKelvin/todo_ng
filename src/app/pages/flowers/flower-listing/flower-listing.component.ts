@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { PageTitleComponent } from '../components/page-title/page-title.component';
+import { PageTitleComponent } from '../../../components/page-title/page-title.component';
 
 @Component({
   selector: 'app-flower-listing',
