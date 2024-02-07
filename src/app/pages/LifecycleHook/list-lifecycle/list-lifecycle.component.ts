@@ -1,11 +1,13 @@
 import { Component } from '@angular/core';
 import { Joke } from '../../../interface/joke';
 import { LifecycleDemonstrateComponent } from '../lifecycle-demonstrate/lifecycle-demonstrate.component';
+import { CommonModule } from '@angular/common';
+import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'joke-list',
   standalone: true,
-  imports: [LifecycleDemonstrateComponent],
+  imports: [LifecycleDemonstrateComponent, CommonModule],
   templateUrl: './list-lifecycle.component.html',
   styleUrl: './list-lifecycle.component.scss',
 })

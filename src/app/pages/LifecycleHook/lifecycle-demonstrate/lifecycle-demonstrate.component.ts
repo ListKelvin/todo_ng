@@ -1,8 +1,8 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, SimpleChanges } from '@angular/core';
 import { Joke } from '../../../interface/joke';
 
 @Component({
-  selector: 'app-lifecycle-demonstrate',
+  selector: 'joke',
   standalone: true,
   imports: [],
   templateUrl: './lifecycle-demonstrate.component.html',
@@ -15,8 +15,14 @@ export class LifecycleDemonstrateComponent {
     console.log(`new - data is ${this.data}`);
   }
 
-  ngOnChanges() {
+  ngOnChanges(changes: SimpleChanges) {
     console.log(`ngOnChanges - data is ${this.data}`);
+
+    for (let key in changes) {
+      console.log(`${key} changed.
+Current: ${changes[key].currentValue}.
+Previous: ${changes[key].previousValue}`);
+    }
   }
 
   ngOnInit() {
