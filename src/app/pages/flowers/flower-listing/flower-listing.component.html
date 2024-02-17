@@ -1,2 +1,5 @@
 <app-page-title />
-<p>flower-listing works!</p>
+<section class="results">
+  <flower-card *ngFor="let flower of filteredFlowerList" [flower]="flower">
+  </flower-card>
+</section>
