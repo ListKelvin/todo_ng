@@ -1,0 +1,28 @@
+.flowerCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid #d1d1d1;
+  gap: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 100%;
+  &_img {
+    filter: drop-shadow(0rem 0rem 1.5rem #d1d1d1);
+    & .imageFLower {
+      max-height: 200px;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+  &_price {
+    padding: 0.5rem;
+
+    color: #d4d4d4;
+  }
+  &_name {
+    font-size: large;
+    font-weight: 700;
+  }
+}

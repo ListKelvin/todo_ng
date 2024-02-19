@@ -1,8 +1,10 @@
-<div class="">
-  <img [src]="flower.image" alt="" />
+<div class="flowerCard">
+  <div class="flowerCard_img">
+    <img [src]="flower.image" alt="" class="image" />
+  </div>
 
-  <h1>name: {{ flower.name }} <span></span></h1>
-  <p>rating: {{ flower.rating }}<span></span></p>
-  <p>price: {{ flower.price }} <span></span></p>
-  <button>add to cart</button>
+  <h1 class="flowerCard_name">name: {{ flower.name }}</h1>
+  <p class="flowerCard_rating">rating: {{ flower.rating }}</p>
+  <p class="flowerCard_price">price: {{ flower.price }}</p>
+  <button class="btn-addToCart">add to cart</button>
 </div>
